@@ -28,6 +28,17 @@ nav> div button{
     background: rgb(255, 255, 255);
     cursor: pointer;
 }
+.hero-section>div> a button{
+    border-radius: 8px;
+    color: #FFFFFF;
+    height: 55px;
+    width: 150px;
+    border: none;
+    margin-top: 1rem;
+    background: rgb(13, 19, 33);
+    cursor: pointer;
+    font-size: 16px;
+}
 
 /* headr hero section  */
 .hero-section{
@@ -217,5 +228,57 @@ nav> div button{
 
 
 }
+
+
+
+/* .support-section */
+
+
+.support-section{
+    height: 280px;
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.339),rgba(0, 0, 0, 0.299),rgba(0, 0, 0, 0.433)), url("./image/handshake.jpg");
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    padding: 30px;
+    margin-top: 20px;
+    align-items: center;
+}
+.support-section h1{
+    color: rgb(255, 255, 255);
+}
+.support-section p{
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    font-size: 14px;
+}
+.support-section div{
+    margin-top: 50px;
+}
+.support-section> div input{
+    padding: 10px 10px;
+    /* border: none; */
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    height: 57px;
+    width: 500px;
+}
+.support-section> div button{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    height: 50px;
+    width: 120px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
 
 
