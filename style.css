@@ -130,4 +130,39 @@ nav> div button{
 }
 
 
+/* video section */
+.yt-video{
+    height: 775px;
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.yt-video-textHeader{
+    height: 113px;
+    width: 852px;
+    margin: 0 auto;
+}
+.yt-video-textHeader p{
+    font-size: 13px;
+}
+.yt-video-div{
+    padding: 1rem;
+    border: 1px solid black;
+    width: 800px;
+    height: 500px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+.yt-video-div iframe{
+    
+    width: 750px;
+    height: 460px;
+    border-radius: 16px;
+
+}
 
