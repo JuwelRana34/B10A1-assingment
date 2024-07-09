@@ -166,3 +166,56 @@ nav> div button{
 
 }
 
+
+/* my-target section */
+
+.my-target-section{
+    height: 460px;
+    width: 1140px;
+    margin:  0 auto;
+}
+.my-target-section-header-text{
+    height: 113px;
+    width: 852px;
+    margin: 0 auto;
+    text-align: center;
+}
+.my-target-section-header-text p{
+    font-size: 13px;
+}
+.my-target-section-header-box-conteiner{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.my-target-cards{
+    height: 250px;
+    width: 330px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    margin-top: 15px;
+}
+.my-target-cards p {
+    font-size: 14px;
+}
+.my-target-cards  a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+.css-card{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+
+}
+.js-card{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+
+
+}
+
+
