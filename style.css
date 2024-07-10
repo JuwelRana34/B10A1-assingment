@@ -65,8 +65,10 @@ nav> div button{
 
 }
 .hero-section>div>p{
-    font-size: 13px;
+    font-size: 14px;
     margin: 20px 0;
+    color: rgb(13, 19, 33);
+    opacity: 0.8;
 }
 .hero-section>div>button{
     border-radius: 8px;
@@ -99,8 +101,10 @@ nav> div button{
     text-align: center;
 }
 .why-web-development-main-div>p{
-    font-size: 13px;
+    font-size: 14px;
     margin: 20px 0;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
 }
 
 .why-web-development-details{
@@ -138,6 +142,7 @@ nav> div button{
     font-size: 13px;
     margin: 20px 0;
     color: rgba(13, 19, 33, 0.899);
+    opacity: 0.8;
 }
 .why-web-development-card-text button{
     border: 1px solid rgb(123, 124, 127);
@@ -176,6 +181,8 @@ nav> div button{
 .yt-video-textHeader p{
     font-size: 13px;
     margin: 20px 0;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
 }
 .yt-video-div{
     padding: 1rem;
@@ -214,6 +221,8 @@ nav> div button{
 .my-target-section-header-text p{
     font-size: 13px;
     margin: 20px 0;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
 }
 .my-target-section-header-box-conteiner{
     display: flex;
@@ -233,6 +242,8 @@ nav> div button{
 .my-target-cards p {
     font-size: 14px;
     margin: 20px 0;
+    color: rgb(13, 19, 33);
+    opacity: 0.8;
 }
 .my-target-cards  a{
     color: rgb(13, 19, 33);
@@ -275,6 +286,8 @@ nav> div button{
 .My-Next-Target-header p {
     font-size: 14px;
     margin: 20px 0;
+    color: rgb(13, 19, 33);
+    opacity: 0.8;
 }
 
 .My-Next-Targets{
@@ -298,6 +311,8 @@ nav> div button{
 }
 .My-Next-Targets-text p{
     padding: 10px 0;
+    color: rgb(13, 19, 33);
+    opacity: 0.8;
 }
 .My-Next-Targets-text a{
     color: rgb(36, 35, 35);
