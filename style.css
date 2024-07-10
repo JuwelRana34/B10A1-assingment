@@ -132,6 +132,7 @@ nav> div button{
     color: rgb(13, 19, 33);
     font-size: 18px;
     font-weight: 500;
+    cursor: pointer;
 
 }
 .why-web-development-card-image>img{
@@ -239,7 +240,7 @@ nav> div button{
     width: 1140px;
     margin: 0 auto;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.339),rgba(0, 0, 0, 0.299),rgba(0, 0, 0, 0.433)), url("./image/handshake.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.349),rgba(0, 0, 0, 0.473)), url("./image/handshake.jpg");
     background-repeat: no-repeat ;
     background-size: cover;
     background-position: center;
@@ -247,6 +248,7 @@ nav> div button{
     padding: 30px;
     margin-top: 20px;
     align-items: center;
+    background-blend-mode: overlay;
 }
 .support-section h1{
     color: rgb(255, 255, 255);
@@ -281,4 +283,49 @@ nav> div button{
 }
 
 
+
+
+/* footer section  */
+
+
+
+footer{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: rgba(13, 19, 33, 0.03);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin-top:25px;
+    margin-bottom: 0;
+
+}
+footer> div{
+   width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+
+}
+
+
+
+.footer-name h1{
+    font-weight: 600;
+    font-size: 16px;
+}
+.social-icons i {
+    font-size: 30px;
+}
+
+.fb{
+    color: #0098ff;
+}
+.github{
+    color: black;
+}
+.linkdin{
+    color: #1a83bb;
+}
 
