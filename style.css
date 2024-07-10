@@ -2,7 +2,7 @@
 
 body{
     font-family: "Azeret Mono", monospace;
-    max-width: 1440px;
+    max-width:1440px;
 }
 
 /* share style  */
@@ -232,6 +232,56 @@ nav> div button{
 
 
 
+/* my next target section */
+
+.My-Next-Target{
+    height: 800px;
+    width: 1140px;
+    margin: 0 auto;
+    padding-top: 50px;
+
+}
+.My-Next-Target-header {
+    height: 115px;
+    width: 946px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.My-Next-Target-header p {
+    font-size: 14px;
+}
+
+.My-Next-Targets{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.My-Next-Targets-image{
+    width: 10%;
+}
+.My-Next-Targets-text{
+    width: 90%;
+}
+.My-Next-Targets-text a{
+    color: rgb(36, 35, 35);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.nodejs img{
+    width: 100px;
+
+}
+
+
 /* .support-section */
 
 
@@ -240,7 +290,8 @@ nav> div button{
     width: 1140px;
     margin: 0 auto;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.411),rgba(0, 0, 0, 0.349),rgba(0, 0, 0, 0.473)), url("./image/handshake.jpg");
+    background-color: rgba(0, 0, 0, 0.562);
+    background-image: url("./image/handshake.jpg");
     background-repeat: no-repeat ;
     background-size: cover;
     background-position: center;
@@ -271,6 +322,10 @@ nav> div button{
     height: 57px;
     width: 500px;
 }
+.support-section> div input:focus{
+    outline: none;
+}
+
 .support-section> div button{
     border-radius: 8px;
     background: rgb(255, 255, 255);
@@ -301,14 +356,13 @@ footer{
 
 }
 footer> div{
-   width: 100%;
+   width: 1130px;
     display: flex;
     justify-content: space-between;
-    padding: 0 20px;
+    margin: 0 auto;
     align-items: center;
 
 }
-
 
 
 .footer-name h1{
